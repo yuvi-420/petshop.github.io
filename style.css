@@ -1,0 +1,51 @@
+*{
+    margin:0;
+    padding:0;
+    background-image: url("/images/back1.png");
+}
+
+body{
+    margin:0;
+    padding:0;
+    border:0;
+    font-family: 'Akaya Telivigala', cursive;
+    
+    background-repeat: no-repeat;
+    
+}
+
+.main{
+    margin:auto;
+    padding:10px 15px 10px 15px;
+    width:80%;
+}
+.important{ /*Now this is helping to target the Important class tag on the html */
+    font-family: 'RocknRoll One', sans-serif;
+ 
+    color:orange;
+}
+img{
+   
+    display:flex;
+    padding:10px;
+    align-items:center;
+    
+}
+header{
+    width:100%;
+}
+header img{
+    width: inherit;/*this will help to adjust the image in header*/
+}
+h1{
+    font-family: 'Akaya Telivigala', cursive;
+    color: crimson;
+    text-align-last: center;
+    font-size: 30px;
+}
+
+footer{ /*this is targeting the footer element*/
+    font-family: 'Akaya Telivigala', cursive;
+    color: crimson;
+    font-size: 30px;
+}
